@@ -1,0 +1,9 @@
+#define auto hameivin_yavin
+#define bool tzvei_dinim
+#define class sugya
+#define enum minyan
+#define float chalakim
+#define int bachur
+#define long chassan
+#define char oys
+#define const muktzeh
