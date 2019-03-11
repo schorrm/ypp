@@ -3,10 +3,14 @@
 python3 checkflags.py "$@"
 if [ $? -ne 0 ] ; then exit 1 ; fi
 
-g++ -x c++ -std=c++11 "$@" -E -Dbe_soymech_on=#include | g++ -x c++ -std=c++11 -E -Dfalse=FLAG_FOUND_FALSE - | python3 checkfalse.py "$@"
+g++ -x c++ -std=c++11 "$@" -E -Dbe_soymech_on=#include | \
+    g++ -x c++ -std=c++11 -E -Dfalse=FLAG_FOUND_FALSE - |
+    python3 checkfalse.py "$@"
 if [ $? -ne 0 ] ; then exit 1 ; fi
 
-g++ -x c++ -std=c++11 "$@" -E -Dbe_soymech_on=#include | g++ -x c++ -std=c++11 -E --imacros=PROFANITY.cpp - | python3 checkprofanity.py
+g++ -x c++ -std=c++11 "$@" -E -Dbe_soymech_on=#include | \
+    g++ -x c++ -std=c++11 -E --imacros=PROFANITY.cpp - | \
+    python3 checkprofanity.py "$@"
 if [ $? -ne 0 ] ; then exit 1 ; fi
 
 # Now compile for real

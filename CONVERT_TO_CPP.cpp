@@ -30,9 +30,8 @@
 #define ayein_sham goto
 #define efsher if
 #define the_pasuk_says inline
-#define bachur int
-#define chassan long
-#define balabos long long
+#define bli_ayin_hara int
+#define gantz long
 #define letzoirech_gufo mutable
 #define shitta namespace
 #define shlita new
@@ -45,7 +44,7 @@
 #define bezrizus register
 #define pilpul reinterpret_cast
 #define pasken return
-#define katan short
+#define a_bissel short
 #define hechshered signed
 #define do_we_have_a_minyan sizeof
 #define ein_od_milvado static

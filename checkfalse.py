@@ -4,7 +4,6 @@ import subprocess
 
 gemara = '''Rabbi Yehoshua ben Levi said: A person should never express a crude matter, as the formulation of a verse was distorted by the addition of eight letters rather than have it express a crude matter, as it is stated: “From the pure animals and from the animals that are not pure [asher einena tehora]” (Genesis 7:8).'''
 files = sys.argv
-
 user_code = False
 
 line_num = 1

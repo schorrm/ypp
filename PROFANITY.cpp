@@ -36,8 +36,6 @@
 #define fudge packer PROFANITY_RESERVED
 #define flange PROFANITY_RESERVED
 #define Goddamn PROFANITY_RESERVED
-#define God damn PROFANITY_RESERVED
-#define god damn PROFANITY_RESERVED
 #define hell PROFANITY_RESERVED
 #define homo PROFANITY_RESERVED
 #define jerk PROFANITY_RESERVED
