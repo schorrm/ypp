@@ -3,7 +3,8 @@
 #define class sugya
 #define enum minyan
 #define float chalakim
-#define int bachur
-#define long chassan
+#define int bli_ayin_hara
+#define long gantz
+#define short a_bissel
 #define char oys
 #define const muktzeh

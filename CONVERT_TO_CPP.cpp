@@ -1,3 +1,4 @@
+
 #define bh {
 #define beezras_hashem {
 #define shkoyach }
@@ -69,7 +70,6 @@
 #define kim_li #define
 #define rabboisai endl
 #define nisht !
-#define ani_maymin assert
 #define HOSHIA 1
 #define ESNOT2 2
 #define AMECHA 3
