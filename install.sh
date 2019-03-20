@@ -1,13 +1,13 @@
 #!/bin/bash
 
 cd /usr/share
-mkdir ypp
+sudo mkdir ypp
 cd ypp
-wget https://github.com/schorrm/ypp/archive/master.zip
-unzip master.zip
-rm master.zip
-mv ypp-master/* .
-rm ypp-master -r
+sudo wget https://github.com/schorrm/ypp/archive/master.zip
+sudo unzip master.zip
+sudo rm master.zip
+sudo mv ypp-master/* .
+sudo rm ypp-master -r
 cd /usr/bin
-ln -s /usr/share/ypp/y++ y++
+sudo ln -s /usr/share/ypp/y++ y++
 echo setup complete
