@@ -66,6 +66,7 @@
 #define its_not_pashut volatile
 #define until_mashiach_comes_or(expr) while(!(expr))
 #define emes true
+#define sheker false
 #define hearah #pragma FAKE_PRAGMA
 #define kim_li #define
 #define rabboisai endl
