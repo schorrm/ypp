@@ -15,6 +15,8 @@ To run the compiler:
 y++ [NAME OF FILE]
 ```
 
+Language spec available here: https://docs.google.com/spreadsheets/d/1K-3wx51FJzAsGC8_G9jYqV0_qpmuHGZrmJPrqlCiIPU/edit?usp=sharing
+
 BeChezkas Moshe Schorr
 
 # Some code samples:
