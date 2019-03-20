@@ -10,5 +10,5 @@ mv ypp-master/* .
 rm ypp-master -r
 chmod +x y++
 cd /usr/local/bin
-ln -s /usr/share/local/ypp/y++ y++
+ln -s /usr/local/share/ypp/y++ y++
 echo setup complete
