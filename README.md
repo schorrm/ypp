@@ -9,6 +9,12 @@ To install (Linux only for now), simply run:
 wget -O - https://raw.githubusercontent.com/schorrm/ypp/master/install.sh | sudo bash
 ```
 
+To run the compiler:
+
+```bash
+y++ [NAME OF FILE]
+```
+
 BeChezkas Moshe Schorr
 
 # Some code samples:
