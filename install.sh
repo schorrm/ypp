@@ -7,7 +7,7 @@ wget https://github.com/schorrm/ypp/archive/master.zip
 unzip master.zip
 rm master.zip
 mv ypp-master/* .
-rm ypp-master -r
+rm -r ypp-master
 chmod +x y++
 cd /usr/local/bin
 ln -s /usr/local/share/ypp/y++ y++
