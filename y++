@@ -1,6 +1,6 @@
 #!/bin/bash
 
-respath='/usr/share/ypp'
+respath='/usr/share/local/ypp'
 
 python3 $respath/checkflags.py "$@"
 if [ $? -ne 0 ] ; then exit 1 ; fi
