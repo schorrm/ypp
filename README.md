@@ -19,6 +19,15 @@ Among the many new features of this language with the Daas Torah of _Gedolei Yis
 
 Right now, the compiler only runs on Unix based systems, the most emesdig architectures. Also, why spend extra money on Windows when you could use it to be mefarnes talmidei chachomim or to replace the dinged-up bumper on your 1993 Dodge Ram?
 
+Haskama from HoRav HoGaon Rav Assaf Efrayim Bednarsh Shlit"a, Rosh Kollel of Yeshivas Rabbeinu Yitzchok Elchonon in Yerushalayim Ir HaKodesh Tiboneh veTitochein:
+
+![Haskama](https://github.com/schorrm/ypp/blob/master/haskama-ypp.PNG)
+
+[PDF of haskama](https://github.com/schorrm/ypp/blob/master/%D7%94%D7%A1%D7%9B%D7%9E%D7%94%20%D7%9C%D7%A9%D7%A4%D7%AA%20%D7%AA%D7%9B%D7%A0%D7%95%D7%AA%20%D7%9B%D7%A9%D7%99%D7%A8%D7%94.pdf)
+
+Language spec [available here](https://docs.google.com/spreadsheets/d/1K-3wx51FJzAsGC8_G9jYqV0_qpmuHGZrmJPrqlCiIPU/edit?usp=sharing)
+
+
 ## Usage:
 To install (Linux only for now), simply run:
 
@@ -31,10 +40,6 @@ To run the compiler:
 ```bash
 y++ [NAME OF FILE]
 ```
-
-Language spec [available here](https://docs.google.com/spreadsheets/d/1K-3wx51FJzAsGC8_G9jYqV0_qpmuHGZrmJPrqlCiIPU/edit?usp=sharing)
-
-BeChezkas Moshe Schorr
 
 ## Some code samples:
 
