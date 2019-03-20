@@ -1,22 +1,24 @@
 #!/bin/bash
 
-python3 checkflags.py "$@"
+respath='/usr/share/ypp'
+
+python3 $respath/checkflags.py "$@"
 if [ $? -ne 0 ] ; then exit 1 ; fi
 
 g++ -x c++ -std=c++11 "$@" -E -Dbe_soymech_on=#include | \
     g++ -x c++ -std=c++11 -E -Dfalse=FLAG_FOUND_FALSE - |
-    python3 checkfalse.py "$@"
+    python3 $respath/checkfalse.py "$@"
 if [ $? -ne 0 ] ; then exit 1 ; fi
 
 g++ -x c++ -std=c++11 "$@" -E -Dbe_soymech_on=#include | \
-    g++ -x c++ -std=c++11 -E --include=PROFANITY.cpp - | \
-    python3 checkprofanity.py "$@"
+    g++ -x c++ -std=c++11 -E --include=$respath/PROFANITY.cpp - | \
+    python3 $respath/checkprofanity.py "$@"
 if [ $? -ne 0 ] ; then exit 1 ; fi
 
 # Now compile for real
 
-g++ -x c++ -std=c++11 "$@" -E -Dbe_soymech_on=#include -Dkim_li=#define --include=ani_maymin.cpp | \
- g++ -x c++ -std=c++11 -E --include=CONVERT_TO_CPP.cpp - | \
+g++ -x c++ -std=c++11 "$@" -E -Dbe_soymech_on=#include -Dkim_li=#define --include=$respath/ani_maymin.cpp | \
+ g++ -x c++ -std=c++11 -E --include=$respath/CONVERT_TO_CPP.cpp - | \
  g++ -x c++ -std=c++11 - 2>&1 | \
- g++ -x c++ -std=c++11 -E --include=UNTYPE.cpp - -std=c++11 -P | \
- python3 process_output.py
+ g++ -x c++ -std=c++11 -E --include=$respath/UNTYPE.cpp - -std=c++11 -P | \
+ python3 $respath/process_output.py
