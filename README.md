@@ -49,7 +49,7 @@ y++ [NAME OF FILE]
 be_soymech_on <iostream>
 holding shitta std;
 bli_ayin_hara main () bh
-	be_machriz << "hello world" << rabboisai;
+	be_machriz << "Vos Macht Di Oilem" << rabboisai;
   pasken 0;
 shkoyach
 ```
