@@ -29,7 +29,7 @@ Language spec [available here](https://docs.google.com/spreadsheets/d/1K-3wx51FJ
 
 
 ## Usage:
-To install (Linux only for now), simply run:
+To install (Linux, the most emesdik OS, only for now), simply run:
 
 ```bash
 wget -O - https://raw.githubusercontent.com/schorrm/ypp/master/install.sh | sudo bash
