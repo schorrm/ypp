@@ -3,7 +3,7 @@ BS"D
 
 Yid++ is the oylem's first programming shprach written in yeshivish, for yidden, following Torah-true hashkafos.
 
-For many years already, the oylem has had to use goyishe programming languages, which, as we all are aware, is a grave michshol. We all know the midrash, _lo shinu et shmam, leshonam, umalvusham_ -- as we all too well know, using the goyishe shprach can lead, lo aleinu, to all kinds of krum hashkafos and kilkulim.
+For many years already, the oylem has had to use goyishe programming languages, which, as we all are aware, is a grave michshol. We all know the midrash, _lo shinu es shmam, leshonam, umalvusham_ -- as we all too well know, using the goyishe shprach can lead, lo aleinu, to all kinds of krum hashkafos and kilkulim.
 
 Therefore, at the encouragement of _Gedolei Yisroel Shlit"a_, we took it upon ourselves to try to be metakein the pirtzos. _Baruch HaShem_, after extensive work and many personal meetings with the Gedoilim, who were constantly being mechazeik us towards this, and giving us Daas Torah, we were finally zoicheh to be mashlim the beta version of the Yid++ compiler.
 
