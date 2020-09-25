@@ -1,7 +1,7 @@
 # Yid++ - the oylem's first programming shprach
 BS"D
 
-Yid++ is the oylem's first programming shprach written in yeshivish, for yidden, following Torah-true hashkafos.
+Yid++ is the oylem's first programming shprach written in yeshivish<sup>[*](#PHP)</sup>, for yidden, following Torah-true hashkafos.
 
 For many years already, the oylem has had to use goyishe programming languages, which, as we all are aware, is a grave michshol. We all know the midrash, _lo shinu es shmam, leshonam, umalvusham_ -- as we all too well know, using the goyishe shprach can lead, lo aleinu, to all kinds of krum hashkafos and kilkulim.
 
@@ -107,3 +107,5 @@ bli_ayin_hara main (bli_ayin_hara argc, oys *argv[]) bh
 	pasken 0;
 shkoyach
 ```
+
+<sup name="PHP">*</sup> - with respect to prior art from PHP
